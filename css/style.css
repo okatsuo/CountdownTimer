@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
+    align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -19,19 +20,30 @@ body {
     color: #424242;
     letter-spacing: 5px;
     background-color: white;
-    margin: 70px;
+    margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 80px;
     padding-bottom: 80px;
     border-radius: 250px;
 }
 
-.container #counter-interface #counter {
+.container #counter-interface #counter-msg {
     font-size: 100px;
+}
+
+.container #counter_number {
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container #counter-interface input {
+.container #counter_number input {
+    width: 80px;
+    margin: 5px;
+    font-size: 30px;
     float: left;
 }
+
+.container #buttom {}
